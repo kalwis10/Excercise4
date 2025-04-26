@@ -7,28 +7,28 @@
 <body>
     <svg width="800" height="600" style="border: 1px solid black; background-color: lightblue;">
         
-        <!-- Ground -->
+        <!-- Grass area -->
         <rect x="0" y="400" width="800" height="200" fill="lightgreen" />
 
-        <!-- House body (rectangle) -->
+        <!-- House -->
         <rect x="300" y="250" width="200" height="150" fill="tomato" stroke="black" stroke-width="4" />
 
         <!-- Roof (polygon) -->
         <polygon points="300,250 500,250 400,150" fill="saddlebrown" stroke="black" stroke-width="4" />
 
-        <!-- Door (rectangle) -->
+        <!-- Door -->
         <rect x="370" y="320" width="60" height="80" fill="saddlebrown" stroke="black" stroke-width="2" />
 
-        <!-- Window (rectangle) -->
+        <!-- g transform used-->
         <g stroke="black" stroke-width="1" fill="grey" transform="translate(320,270)">
             <rect x="0" y="0" width="40" height="40" />
             <rect x="120" y="0" width="40" height="40" />
         </g>
         
-        <!-- Sun (circle) -->
+        <!-- Sun -->
         <circle cx="700" cy="80" r="80" fill="yellow" stroke="orange" stroke-width="3" />
 
-        <!-- Garden Path (path) -->
+        <!-- Garden Path -->
         <path d="M400 400 Q420 450 400 500 Q380 550 400 600" stroke="sienna" stroke-width="15" fill="none" />
        
         <!-- Flower 1 -->
@@ -43,10 +43,10 @@
         <ellipse cx="190" cy="460" rx="5" ry="8" fill="violet" />
         <ellipse cx="210" cy="460" rx="5" ry="8" fill="violet" />
 
-        <!-- Bush (ellipse) -->
+        <!-- Bush  -->
         <ellipse cx="600" cy="500" rx="40" ry="20" fill="blue" stroke="black" stroke-width="2"  />
 
-        <!-- Chimney (rectangle) -->
+        <!-- Chimney -->
         <rect x="410" y="170" width="20" height="40" fill="maroon" stroke="black" stroke-width="2" />
 
         <!-- Text Labels -->
@@ -54,6 +54,7 @@
         <text x="100" y="580" font-size="20" fill="darkgreen">My Garden</text>
         <text x="680" y="180" font-size="16" fill="orange">Sun</text>
        
+        <!-- Tree-->
         <rect x="600" y="370" width="20" height="60" fill="saddlebrown" />
         <circle cx="610" cy="350" r="33" fill="forestgreen" />
         <circle cx="610" cy="350" r="6" fill="red" />
@@ -65,5 +66,9 @@
     </svg>
     <h2>Annotated SVG Shapes</h2>
 <img src="images/excercise4.2.png" alt="Annotated House and Garden" width="1200">
+
+<h2>DOM and SVG </h2>
+<img src="images/DOM and SVG.png" alt="DOM Screenshot" width="1200">
+
 </body>
 </html>
